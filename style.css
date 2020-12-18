@@ -1,0 +1,60 @@
+header {
+background-color: blue;
+height: 100px;
+;
+}
+
+body {
+margin: 0;
+font-family: arial , serif;
+background-color: rgba(161, 156, 156, 0.712);
+}
+
+.brand {
+color: white;
+font-family: amerigarmnd , 'arial rounded' , cursive;
+text-align: center;
+font-size: 72px
+margin: 0;
+padding: 20px 0 0 0;
+}
+
+header h2 {
+font-size: 18px;
+text-align: center;
+margin: 0px;
+color: white
+font-family: gem , 'arial black' , serif;
+}
+
+main {
+color: black
+}
+
+footer {
+  	background-color: black;
+    height: 50px;
+}
+
+section {
+	padding: 0 25%;
+  margin: 80px 0;
+}
+
+h1, h2 {
+ text-align: center;
+font-family: arial , serif;
+color: black;
+}
+
+footer p {
+  color: white;
+  font-family: arial , serif;
+  text-align: center;
+  padding-top: 15px;
+}
+
+a:link { color: red;}
+a:visited { color: purple; }
+a:hover { color: pink; }
+a:active { color: yellow; }
