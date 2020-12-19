@@ -1,42 +1,46 @@
 /* My CSS code */
 
 header {
-background-color: blue;
-height: 100px;
+  margin: 0;
+  background-color: grey;
+  height: 100px;
 }
 
 body {
-margin: 0;
-font-family: arial , serif;
-background-color: rgba(161, 156, 156, 0.712);
+  margin: 0;
+  font-family: arial , serif;
+  background-color: rgba(161, 156, 156, 0.712);
 }
 
 /* Making my name special */
 
 .brand {
-color: white;
-font-family: amerigarmnd , 'arial rounded' , cursive;
-text-align: center;
-font-size: 72px
-margin: 0;
-padding: 20px 0 0 0;
+  color: white;
+  font-family: amerigarmnd , 'arial rounded' , cursive;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 20px 0 0 0;
 }
 
 header h2 {
-font-size: 18px;
-text-align: center;
-margin: 0px;
-color: white
-font-family: gem , 'arial black' , serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0px;
+  color: rgba(58, 10, 231, 0.829);
+  font-family: gem , 'arial black' , serif;
 }
+
+
 /* Basic page styling */
+
 main {
-color: black
+  color: black
 }
 
 footer {
-  	background-color: black;
-    height: 50px;
+  background-color: black;
+  height: 50px;
 }
 
 section {
@@ -45,9 +49,9 @@ section {
 }
 
 h1, h2 {
- text-align: center;
-font-family: arial , serif;
-color: black;
+  text-align: center;
+  font-family: arial , serif;
+  color: black;
 }
 
 footer p {
@@ -56,6 +60,8 @@ footer p {
   text-align: center;
   padding-top: 15px;
 }
+
+/* Making my links interactive */
 
 a:link { color: red;}
 a:visited { color: purple; }
